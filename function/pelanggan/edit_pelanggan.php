@@ -1,6 +1,6 @@
 <?php
-include('function.php');
-include('koneksi.php');
+include('../../koneksi.php');
+include('../pelanggan/pelanggan.php');
 
 // Ensure all required POST data is sent
 if (isset($_POST['id_pelanggan'], $_POST['nama_pelanggan'], $_POST['alamat'], $_POST['telepon'])) {
